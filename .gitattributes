@@ -1,0 +1,14 @@
+# Handle text files automatically
+* text=auto
+
+# Specific files
+*.js text
+*.jsx text
+*.ts text
+*.tsx text
+*.json text
+*.css text
+*.html text
+
+# Treat node_modules as binary
+node_modules/* binary
