@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import profilePic from '../assets/images/profile.jpg';
+import resume from '../assets/CV/Resume.pdf';
 
 const Home = ({ setCurrentPage }) => {
   const canvasRef = useRef(null);
@@ -177,7 +178,7 @@ const Home = ({ setCurrentPage }) => {
               Get In Touch
             </button>
             <a
-              href="../assets/CV/Resume.pdf"
+              href={resume}
               download="Jasna_AV_CV.pdf"
               className="px-8 py-3 border-2 border-pink-500 text-pink-400 hover:bg-pink-500 hover:text-slate-900 font-bold rounded-lg transition-all inline-flex items-center justify-center gap-2"
             >
