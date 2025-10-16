@@ -177,6 +177,7 @@ const Home = ({ setCurrentPage }) => {
             >
               Get In Touch
             </button>
+            
             <a
               href={resume}
               download="Jasna_AV_CV.pdf"
